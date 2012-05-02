@@ -58,39 +58,39 @@ call Pl#Hi#Allocate({
 
 let g:Powerline#Colorschemes#solarizedDark#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
-		\ 'n': ['b65', 'b20'],
+		\ 'n': ['b65', 'b15'],
 		\ 'N': ['b65', 'b15'],
-		\ 'i': ['b65', 'b45'],
+		\ 'i': ['b65', 'b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
 		\ 'n': ['b15', 'green'],
-		\ 'i': ['blue', 'b15'],
+		\ 'i': ['blue', 'b20'],
 		\ 'v': ['b15', 'orange'],
 		\ 'r': ['white', 'brightred'],
 		\ 's': ['white', 'gray5'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['scrollpercent'], {
-		\ 'n': ['b15', 'b45'],
+		\ 'n': ['b50', 'b20'],
 		\ 'N': ['b50', 'b20'],
-		\ 'i': ['b45', 'b20'],
+		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
-		\ 'n': ['b15', 'b45'],
+		\ 'n': ['b50', 'b20'],
 		\ 'N': ['b50', 'b20'],
-		\ 'i': ['b45', 'b20'],
+		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
-		\ 'n': ['b15', 'b45'],
+		\ 'n': ['b65', 'b20'],
 		\ 'N': ['gray7', 'gray0'],
-		\ 'i': ['b45', 'b20'],
+		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath', 'status'], {
-		\ 'n': ['b65'],
+		\ 'n': ['b50'],
 		\ 'N': ['gray5'],
 		\ 'i': ['b20'],
 		\ }),
@@ -98,39 +98,39 @@ let g:Powerline#Colorschemes#solarizedDark#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['static_str'], {
 		\ 'n': ['b65', 'b20'],
 		\ 'N': ['gray7', 'gray1'],
-		\ 'i': ['b20', 'b50'],
+		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.flags'], {
-		\ 'n': ['red'],
-		\ 'N': ['red'],
-		\ 'i': ['red'],
+		\ 'n': ['brightestred'],
+		\ 'N': ['darkred'],
+		\ 'i': ['brightestred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['b45', 'b20'],
-		\ 'i': ['b60', 'b45'],
+		\ 'n': ['b50', 'b20'],
+		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
-		\ 'n': ['b15', 'b60'],
+		\ 'n': ['b15', 'b50'],
 		\ 'N': ['gray7', 'gray1'],
-		\ 'i': ['b60', 'b15'],
+		\ 'i': ['b45', 'b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
-		\ 'n': ['orange', 'b20'],
-		\ 'i': ['orange', 'b45'],
+		\ 'n': ['orange', 'b15'],
+		\ 'i': ['orange', 'b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
 		\ 'n': ['b65'],
-		\ 'N': ['b45'],
-		\ 'i': ['b45'],
+		\ 'N': ['gray5'],
+		\ 'i': ['b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-		\ 'n': ['b92', 'red'],
+		\ 'n': ['white', 'brightred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
@@ -139,13 +139,13 @@ let g:Powerline#Colorschemes#solarizedDark#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.buffer', 'command_t:raw.line'], {
-		\ 'n': ['b92', 'red'],
-		\ 'N': ['b15', 'red'],
+		\ 'n': ['white', 'darkred'],
+		\ 'N': ['brightred', 'darkestred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
-		\ 'n': ['b92', 'red'],
-		\ 'N': ['b92', 'red'],
+		\ 'n': ['white', 'darkred'],
+		\ 'N': ['white', 'darkestred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
@@ -164,19 +164,19 @@ let g:Powerline#Colorschemes#solarizedDark#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-		\ 'n': ['violet', 'b92'],
+		\ 'n': ['brightpurple', 'darkestpurple'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next', 'ctrlp:pwd'], {
-		\ 'n': ['b45', 'b65'],
+		\ 'n': ['white', 'mediumpurple'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:item'], {
-		\ 'n': ['violet', 'b92'],
+		\ 'n': ['darkestpurple', 'white'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
-		\ 'n': ['red', 'violet'],
+		\ 'n': ['brightestred', 'darkestpurple'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
@@ -184,6 +184,6 @@ let g:Powerline#Colorschemes#solarizedDark#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
-		\ 'n': ['b92', 'violet'],
+		\ 'n': ['white', 'darkestpurple'],
 		\ }),
 	\ ])
