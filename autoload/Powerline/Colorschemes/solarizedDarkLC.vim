@@ -1,7 +1,4 @@
 call Pl#Hi#Allocate({
-	\ 'black'          : 16,
-	\ 'white'          : 231,
-	\
 	\ 'darkestgreen'   : 22,
 	\ 'darkgreen'      : 28,
 	\ 'mediumgreen'    : 70,
@@ -25,18 +22,6 @@ call Pl#Hi#Allocate({
 	\
 	\ 'brightorange'   : 208,
 	\ 'brightestorange': 214,
-	\
-	\ 'gray0'          : 233,
-	\ 'gray1'          : 235,
-	\ 'gray2'          : 236,
-	\ 'gray3'          : 239,
-	\ 'gray4'          : 240,
-	\ 'gray5'          : 241,
-	\ 'gray6'          : 244,
-	\ 'gray7'          : 245,
-	\ 'gray8'          : 247,
-	\ 'gray9'          : 250,
-	\ 'gray10'         : 252,
 	\
 	\ 'b15'         : [8, 0x002b36],
 	\ 'b20'         : [0, 0x073642],
@@ -67,8 +52,8 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ 'n': ['b15', 'green'],
 		\ 'i': ['blue', 'b20'],
 		\ 'v': ['b15', 'orange'],
-		\ 'r': ['white', 'brightred'],
-		\ 's': ['white', 'gray5'],
+		\ 'r': ['b92', 'brightred'],
+		\ 's': ['b92', 'b65'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['scrollpercent'], {
@@ -85,19 +70,19 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
 		\ 'n': ['b65', 'b20'],
-		\ 'N': ['gray7', 'gray0'],
+		\ 'N': ['b65', 'b45'],
 		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath', 'status'], {
-		\ 'n': ['b50'],
-		\ 'N': ['gray5'],
+		\ 'n': ['b45'],
+		\ 'N': ['b50'],
 		\ 'i': ['b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['static_str'], {
 		\ 'n': ['b65', 'b20'],
-		\ 'N': ['gray7', 'gray1'],
+		\ 'N': ['b65', 'b45'],
 		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
@@ -114,8 +99,8 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
 		\ 'n': ['b15', 'b50'],
-		\ 'N': ['gray7', 'gray1'],
-		\ 'i': ['b45', 'b20'],
+		\ 'N': ['b65', 'b45'],
+		\ 'i': ['b60', 'b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
@@ -125,31 +110,31 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
 		\ 'n': ['b65'],
-		\ 'N': ['gray5'],
-		\ 'i': ['b20'],
+		\ 'N': ['b50'],
+		\ 'i': ['b45'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-		\ 'n': ['white', 'brightred'],
+		\ 'n': ['b92', 'brightred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
-		\ 'n': ['white', 'mediumred'],
+		\ 'n': ['b92', 'mediumred'],
 		\ 'N': ['brightred', 'darkestred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.buffer', 'command_t:raw.line'], {
-		\ 'n': ['white', 'darkred'],
+		\ 'n': ['b92', 'darkred'],
 		\ 'N': ['brightred', 'darkestred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
-		\ 'n': ['white', 'darkred'],
-		\ 'N': ['white', 'darkestred'],
+		\ 'n': ['b92', 'darkred'],
+		\ 'N': ['b92', 'darkestred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['white', 'mediumgreen'],
+		\ 'n': ['b92', 'mediumgreen'],
 		\ 'N': ['mediumgreen', 'darkestgreen'],
 		\ }),
 	\
@@ -159,31 +144,31 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['white', 'darkgreen'],
-		\ 'N': ['white', 'darkestgreen'],
+		\ 'n': ['b92', 'darkgreen'],
+		\ 'N': ['b92', 'darkestgreen'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-		\ 'n': ['brightpurple', 'darkestpurple'],
+		\ 'n': ['violet', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next', 'ctrlp:pwd'], {
-		\ 'n': ['white', 'mediumpurple'],
+		\ 'n': ['b45', 'b65'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:item'], {
-		\ 'n': ['darkestpurple', 'white'],
+		\ 'n': ['violet', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
-		\ 'n': ['brightestred', 'darkestpurple'],
+		\ 'n': ['red', 'violet'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
-		\ 'n': ['darkestpurple', 'white'],
+		\ 'n': ['violet', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
-		\ 'n': ['white', 'darkestpurple'],
+		\ 'n': ['b92', 'violet'],
 		\ }),
 	\ ])
