@@ -23,6 +23,17 @@ call Pl#Hi#Allocate({
 	\ 'brightorange'   : 208,
 	\ 'brightestorange': 214,
 	\
+	\ 'g0'          : 233,
+	\ 'g1'          : 235,
+	\ 'g2'          : 236,
+	\ 'g3'          : 239,
+	\ 'g4'          : 240,
+	\ 'g5'          : 241,
+	\ 'g6'          : 244,
+	\ 'g7'          : 245,
+	\ 'g8'          : 247,
+	\ 'g9'          : 250,
+	\ 'g10'         : 252,
 	\ 'b15'         : [8, 0x002b36],
 	\ 'b20'         : [0, 0x073642],
 	\ 'b45'         : [10, 0x586e75],
@@ -43,7 +54,7 @@ call Pl#Hi#Allocate({
 
 let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
-		\ 'n': ['b65', 'b15'],
+		\ 'n': ['b20', 'b15'],
 		\ 'N': ['b65', 'b15'],
 		\ 'i': ['b65', 'b20'],
 		\ }),
@@ -100,7 +111,7 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['lineinfo'], {
 		\ 'n': ['b15', 'b50'],
 		\ 'N': ['b65', 'b45'],
-		\ 'i': ['b60', 'b20'],
+		\ 'i': ['b65', 'b20'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
@@ -115,7 +126,7 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-		\ 'n': ['b92', 'brightred'],
+		\ 'n': ['b15', 'brightred'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
@@ -149,19 +160,23 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-		\ 'n': ['violet', 'b92'],
+		\ 'n': ['b15', 'violet'],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next', 'ctrlp:pwd'], {
-		\ 'n': ['b45', 'b65'],
+	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next'], {
+		\ 'n': ['b45', 'b15'],
+		\ }),
+	\
+	\ Pl#Hi#Segments(['ctrlp:pwd'], {
+		\ 'n': ['b45', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:item'], {
-		\ 'n': ['violet', 'b92'],
+		\ 'n': ['b15', 'violet'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
-		\ 'n': ['red', 'violet'],
+		\ 'n': ['red', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
@@ -169,6 +184,6 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
-		\ 'n': ['b92', 'violet'],
+		\ 'n': ['b20', 'b15'],
 		\ }),
 	\ ])

@@ -26,6 +26,17 @@ function! Powerline#Functions#GetFilepath() " {{{
 		let fpath = split(fnamemodify(filepath, ':~:.:h'), dirsep)
 		let fpath_shortparts = map(fpath[1:], 'v:val[0]')
 		let ret = join(extend([fpath[0]], fpath_shortparts), dirsep) . dirsep
+	elseif g:Powerline_stl_path_style == 'relativeshort'
+		" Display a relative path, similar to the %f statusline item
+		let fpath = split(fnamemodify(filepath, ':~:.:h'), dirsep)
+		let fpath_shortparts = map(fpath[1:], 'v:val[0]')
+		let ret = join(extend([fpath[0]], fpath_shortparts), dirsep) . dirsep
+    if len(fpath) > 3
+      let fullpath = fpath
+      let fullpath = [fullpath[0], '…'] +  fullpath[-3 + 1 :]
+      let ret = join(fullpath, '/')
+      let ret = ret . dirsep
+    endif
 	elseif g:Powerline_stl_path_style == 'relative'
 		" Display a relative path, similar to the %f statusline item
 		let ret = fnamemodify(filepath, ':.:h') . dirsep
