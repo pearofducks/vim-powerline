@@ -63,7 +63,7 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ 'n': ['b15', 'green'],
 		\ 'i': ['blue', 'b20'],
 		\ 'v': ['b15', 'orange'],
-		\ 'r': ['b92', 'brightred'],
+		\ 'r': ['b92', 'red'],
 		\ 's': ['b92', 'b65'],
 		\ }),
 	\
@@ -98,13 +98,13 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.flags'], {
-		\ 'n': ['brightestred'],
-		\ 'N': ['darkred'],
-		\ 'i': ['brightestred'],
+		\ 'n': ['red'],
+		\ 'N': ['red'],
+		\ 'i': ['red'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['b50', 'b20'],
+		\ 'n': ['b45', 'b20'],
 		\ 'i': ['b20', 'b15'],
 		\ }),
 	\
@@ -126,45 +126,45 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
-		\ 'n': ['b15', 'brightred'],
+		\ 'n': ['b15', 'orange'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.name', 'command_t:static_str.name'], {
-		\ 'n': ['b92', 'mediumred'],
-		\ 'N': ['brightred', 'darkestred'],
+		\ 'n': ['b92', 'orange'],
+		\ 'N': ['orange', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:static_str.buffer', 'command_t:raw.line'], {
-		\ 'n': ['b92', 'darkred'],
-		\ 'N': ['brightred', 'darkestred'],
+		\ 'n': ['b92', 'orange'],
+		\ 'N': ['orange', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['gundo:SPLIT', 'command_t:SPLIT'], {
-		\ 'n': ['b92', 'darkred'],
-		\ 'N': ['b92', 'darkestred'],
+		\ 'n': ['b15', 'orange'],
+		\ 'N': ['b15', 'orange'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.name', 'minibufexplorer:static_str.name', 'nerdtree:raw.name', 'tagbar:static_str.name'], {
-		\ 'n': ['b92', 'mediumgreen'],
-		\ 'N': ['mediumgreen', 'darkestgreen'],
+		\ 'n': ['b92', 'green'],
+		\ 'N': ['green', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:static_str.buffer', 'tagbar:static_str.buffer'], {
-		\ 'n': ['brightgreen', 'darkgreen'],
-		\ 'N': ['mediumgreen', 'darkestgreen'],
+		\ 'n': ['b15', 'green'],
+		\ 'N': ['green', 'b15'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lustyexplorer:SPLIT', 'minibufexplorer:SPLIT', 'nerdtree:SPLIT', 'tagbar:SPLIT'], {
-		\ 'n': ['b92', 'darkgreen'],
-		\ 'N': ['b92', 'darkestgreen'],
+		\ 'n': ['b92', 'green'],
+		\ 'N': ['b15', 'green'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-		\ 'n': ['b15', 'violet'],
+		\ 'n': ['b20', 'b45'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next'], {
-		\ 'n': ['b45', 'b15'],
+		\ 'n': ['b20', 'b45'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:pwd'], {
@@ -176,7 +176,7 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
-		\ 'n': ['red', 'b15'],
+		\ 'n': ['b15', 'violet'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
@@ -184,6 +184,6 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
-		\ 'n': ['b20', 'b15'],
+		\ 'n': ['b20', 'violet'],
 		\ }),
 	\ ])
