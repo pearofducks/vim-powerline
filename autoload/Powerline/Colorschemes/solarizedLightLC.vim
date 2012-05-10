@@ -52,43 +52,43 @@ call Pl#Hi#Allocate({
 	\ 'green'          : [2, 0x859900],
 	\ })
 
-let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
+let g:Powerline#Colorschemes#solarizedLightLC#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
-		\ 'n': ['b20', 'b15'],
-		\ 'N': ['b65', 'b15'],
-		\ 'i': ['b65', 'b20'],
+		\ 'n': ['b65', 'b97'],
+		\ 'N': ['b65', 'b92'],
+		\ 'i': ['b20', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['mode_indicator'], {
-		\ 'n': ['b15', 'green'],
-		\ 'i': ['blue', 'b20'],
-		\ 'v': ['b15', 'orange'],
+		\ 'n': ['b97', 'green'],
+		\ 'i': ['blue', 'b97'],
+		\ 'v': ['b97', 'orange'],
 		\ 'r': ['b92', 'red'],
 		\ 's': ['b92', 'b65'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['scrollpercent'], {
-		\ 'n': ['b50', 'b20'],
+		\ 'n': ['b45', 'b65'],
 		\ 'N': ['b50', 'b20'],
-		\ 'i': ['b20', 'b15'],
+		\ 'i': ['b65', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
-		\ 'n': ['b50', 'b20'],
+		\ 'n': ['b65', 'b45'],
 		\ 'N': ['b50', 'b20'],
-		\ 'i': ['b20', 'b15'],
+		\ 'i': ['b65', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo', 'filename'], {
-		\ 'n': ['b65', 'b20'],
+		\ 'n': ['b92', 'b65'],
 		\ 'N': ['b65', 'b45'],
-		\ 'i': ['b20', 'b15'],
+		\ 'i': ['b65', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['fileinfo.filepath', 'status'], {
 		\ 'n': ['b45'],
 		\ 'N': ['b50'],
-		\ 'i': ['b20'],
+		\ 'i': ['b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['static_str'], {
@@ -104,25 +104,25 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
-		\ 'n': ['b50', 'b20'],
-		\ 'i': ['b20', 'b15'],
+		\ 'n': ['b45', 'b65'],
+		\ 'i': ['b92', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
-		\ 'n': ['b15', 'b50'],
+		\ 'n': ['b92', 'b45'],
 		\ 'N': ['b65', 'b45'],
-		\ 'i': ['b65', 'b20'],
+		\ 'i': ['b20', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['errors'], {
-		\ 'n': ['orange', 'b15'],
-		\ 'i': ['orange', 'b20'],
+		\ 'n': ['orange', 'b97'],
+		\ 'i': ['orange', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo.line.tot'], {
 		\ 'n': ['b65'],
 		\ 'N': ['b50'],
-		\ 'i': ['b45'],
+		\ 'i': ['b65'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['paste_indicator', 'ws_marker'], {
@@ -160,23 +160,23 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:focus', 'ctrlp:byfname'], {
-		\ 'n': ['b15', 'violet'],
+		\ 'n': ['b97', 'violet'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:prev', 'ctrlp:next'], {
-		\ 'n': ['b45', 'b15'],
+		\ 'n': ['b45', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:pwd'], {
-		\ 'n': ['b45', 'b15'],
+		\ 'n': ['b45', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:item'], {
-		\ 'n': ['b15', 'violet'],
+		\ 'n': ['b97', 'violet'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:marked'], {
-		\ 'n': ['red', 'b15'],
+		\ 'n': ['red', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:count'], {
@@ -184,6 +184,6 @@ let g:Powerline#Colorschemes#solarizedDarkLC#colorscheme = Pl#Colorscheme#Init([
 		\ }),
 	\
 	\ Pl#Hi#Segments(['ctrlp:SPLIT'], {
-		\ 'n': ['b20', 'b15'],
+		\ 'n': ['b92', 'b97'],
 		\ }),
 	\ ])
