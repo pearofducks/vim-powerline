@@ -69,13 +69,13 @@ let g:Powerline#Colorschemes#solarizedLightLC#colorscheme = Pl#Colorscheme#Init(
 	\
 	\ Pl#Hi#Segments(['scrollpercent'], {
 		\ 'n': ['b45', 'b65'],
-		\ 'N': ['b50', 'b20'],
+		\ 'N': ['b50', 'b60'],
 		\ 'i': ['b65', 'b92'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['branch', 'raw', 'filesize'], {
 		\ 'n': ['b65', 'b45'],
-		\ 'N': ['b50', 'b20'],
+		\ 'N': ['b65', 'b50'],
 		\ 'i': ['b65', 'b92'],
 		\ }),
 	\
@@ -92,7 +92,7 @@ let g:Powerline#Colorschemes#solarizedLightLC#colorscheme = Pl#Colorscheme#Init(
 		\ }),
 	\
 	\ Pl#Hi#Segments(['static_str'], {
-		\ 'n': ['b65', 'b20'],
+		\ 'n': ['b45', 'b92'],
 		\ 'N': ['b65', 'b45'],
 		\ 'i': ['b20', 'b15'],
 		\ }),
