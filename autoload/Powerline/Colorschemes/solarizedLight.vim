@@ -55,7 +55,7 @@ call Pl#Hi#Allocate({
 let g:Powerline#Colorschemes#solarizedLight#colorscheme = Pl#Colorscheme#Init([
 	\ Pl#Hi#Segments(['SPLIT'], {
 		\ 'n': ['b65', 'b97'],
-		\ 'N': ['b65', 'b92'],
+		\ 'N': ['b65', 'b97'],
 		\ 'i': ['b20', 'b92'],
 		\ }),
 	\
@@ -105,7 +105,7 @@ let g:Powerline#Colorschemes#solarizedLight#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['current_function', 'fileformat', 'fileencoding', 'pwd', 'filetype', 'rvm:string', 'rvm:statusline', 'virtualenv:statusline', 'charcode', 'currhigroup'], {
 		\ 'n': ['b45', 'b65'],
-		\ 'i': ['b92', 'b97'],
+		\ 'i': ['b65', 'b97'],
 		\ }),
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
